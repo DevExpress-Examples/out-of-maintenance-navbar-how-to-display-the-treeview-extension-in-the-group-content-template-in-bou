@@ -1,0 +1,8 @@
+﻿@Html.DevExpress().NavBar(navBar => {
+    navBar.Name = "NavBar";
+    navBar.SetGroupContentTemplateContent(c => {
+        Html.DevExpress().TreeView(treeView => {
+            treeView.Name = "TreeView" + c.ItemIndex.ToString();
+        }).Bind(new HierarchicalCollectionDataSource((int)DataBinder.Eval(c.Group.DataItem, "CategoryId"))).GetHtml();
+    });
+}).Bind(new HierarchicalCollectionDataSource()).GetHtml()
