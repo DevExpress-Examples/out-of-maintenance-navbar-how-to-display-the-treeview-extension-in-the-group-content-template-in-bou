@@ -1,3 +1,11 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [HomeController.cs](./CS/Controllers/HomeController.cs) (VB: [HomeController.vb](./VB/Controllers/HomeController.vb))
+* [CategoriesDataProvider.cs](./CS/Models/CategoriesDataProvider.cs) (VB: [CategoriesDataProvider.vb](./VB/Models/CategoriesDataProvider.vb))
+* [HierarchicalCollectionDataSource.cs](./CS/Models/HierarchicalCollectionDataSource.cs) (VB: [HierarchicalCollectionDataSource.vb](./VB/Models/HierarchicalCollectionDataSource.vb))
+* [Index.cshtml](./CS/Views/Home/Index.cshtml)
+<!-- default file list end -->
 # NavBar - How to display the TreeView extension in the Group Content template in bound mode
 
 
