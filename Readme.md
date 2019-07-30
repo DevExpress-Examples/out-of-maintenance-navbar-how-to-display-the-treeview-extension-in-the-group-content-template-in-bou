@@ -8,7 +8,7 @@
 <!-- default file list end -->
 # NavBar - How to display the TreeView extension in the Group Content template in bound mode
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/t328884)**
+**[[Run Online]](https://codecentral.devexpress.com/t328884/)**
 <!-- run online end -->
 
 
